@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page About Myself</title>
+</head>
+<body>
+    <h2>My Journey in Picture</h2>
+    <picture>
+        <source srcset="./assets/images/fresher-engineer.png" media="(min-width: 1024px)">
+        <source srcset="./assets/images/fresher-engineer.png" media="(min-width: 768px)">
+        <source srcset="./assets/images/fresher-engineer.png" media="(max-width: 767px)">
+        <img src="./assets/images/fresher-engineer.png" alt="A picture representing my journey from a Fresher to an Engineer">
+    </picture>
+
+    <h2>A Random Sound on my Device</h2>
+    <audio controls>
+        <source src="./assets/audios/sound.mp3" type="audio/mpeg">
+        Your browser does not support this.
+    </audio>
+    
+    <h2>Random Video on my Device</h2>
+    <video controls width="400">
+        <source src="/assets/videos/video.mov" type="video/mp4">
+        Your browser does not support this.
+    </video>
+    
+    <h2>Preaching the Gospel of Flutter (Throwback)</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8d6fntQiiwo" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+
+</body>
+</html>
